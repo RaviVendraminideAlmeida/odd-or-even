@@ -15,15 +15,15 @@ int main ()
         file << "int main(){" << endl;
 	file << "	int n;" << endl;
 	file << " " << endl;
-	file << "	cout << \"Digite um número: \";" << endl;
+	file << "	cout << \"Type in a number: \";" << endl;
 	file << "	cin >> n;" << endl;
 	file << "" << endl;
 	for (int i = 0; i <= 8000000; i++){
 		file << "	if (n == " << i << ")" << endl;
 			if (i % 2 == 0)
-				file << "		cout << \"O número é par\";" << endl;
+				file << "		cout << \"The number is even\";" << endl;
 			else
-				file << "		cout << \"O número é ímpar\";" << endl;
+				file << "		cout << \"The number is odd\";" << endl;
 
 	}
         file << "	return 0;" << endl;
